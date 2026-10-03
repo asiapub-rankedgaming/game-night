@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APGN Champs Tournament — Qualified Participants</title>
+  <style>
+    :root {
+      --bg: #0b0d12;
+      --panel: #141821;
+      --panel-2: #1b202b;
+      --gold: #f5c84c;
+      --text: #f3f4f6;
+      --muted: #aeb5c2;
+      --line: rgba(245, 200, 76, .22);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+    .wrap {
+      width: min(980px, calc(100% - 28px));
+      margin: 24px auto 48px;
+    }
+    .banner {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: #000;
+    }
+    header {
+      text-align: center;
+      padding: 24px 10px 16px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: clamp(25px, 4vw, 38px);
+      letter-spacing: .3px;
+    }
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    section {
+      margin-top: 18px;
+      padding: 20px;
+      background: linear-gradient(145deg, var(--panel), var(--panel-2));
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      color: var(--gold);
+    }
+    ul {
+      margin: 8px 0 0;
+      padding-left: 20px;
+    }
+    li { margin: 6px 0; }
+    .rewards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+    .reward {
+      padding: 16px;
+      text-align: center;
+      background: rgba(255,255,255,.035);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 10px;
+    }
+    .place {
+      font-weight: 700;
+      font-size: 17px;
+      margin-bottom: 7px;
+    }
+    .prize {
+      color: var(--gold);
+      font-weight: 700;
+    }
+    .info {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px 24px;
+    }
+    .info div { color: var(--muted); }
+    .info strong { color: var(--text); }
+    .notice {
+      color: var(--muted);
+      margin: 0;
+    }
+    footer {
+      text-align: center;
+      color: #777f8d;
+      font-size: 13px;
+      margin-top: 22px;
+    }
+    @media (max-width: 700px) {
+      .rewards, .info { grid-template-columns: 1fr; }
+      section { padding: 16px; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+
+    <!-- Upload the GIF to the same /game-night/ folder as this HTML file. -->
+    <img
+      class="banner"
+      src="APGN_The_Collision_of_Champs_Optimized.gif"
+      alt="APGN The Collision of Champs 1v1 Tournament animated banner"
+    >
+
+    <header>
+      <h1>APGN Champs Tournament</h1>
+    </header>
+
+    <section>
+      <h2>Qualification</h2>
+      <ul>
+        <li>The Top 5 verified winners from each APGN monthly event qualify.</li>
+        <li>Three months produce 15 qualified players.</li>
+        <li>The 15 qualifiers compete in the APGN Champs Tournament during the 1st week of the following quarter.</li>
+        <li>Qualified players will be automatically vouched into the private <strong>APGN Champs</strong> room after the monthly prizes are distributed.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Championship Rewards</h2>
+      <div class="rewards">
+        <div class="reward">
+          <div class="place">🏆 Champion</div>
+          <div class="prize">1000 Global Rank<br>(APGN Champion) + 100 RGDs</div>
+        </div>
+        <div class="reward">
+          <div class="place">🥈 2nd Place</div>
+          <div class="prize">50 RGDs</div>
+        </div>
+        <div class="reward">
+          <div class="place">🥉 3rd Place</div>
+          <div class="prize">30 RGDs</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Tournament Details</h2>
+      <div class="info">
+        <div><strong>Game:</strong> Warcraft III</div>
+        <div><strong>Format:</strong> 1v1</div>
+        <div><strong>Mode:</strong> -SDOM</div>
+        <div><strong>Bot:</strong> SG (Asia Bot)</div>
+        <div><strong>Participants:</strong> 15 qualified players</div>
+        <div><strong>Schedule:</strong> 1st week of the following quarter</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>What You Need to Know</h2>
+      <ul>
+        <li>Stay in the <strong>APGN Champs</strong> room for tournament announcements and coordination.</li>
+        <li>Watch for the official tournament schedule and match instructions.</li>
+        <li>Be ready to participate during the announced tournament period.</li>
+      </ul>
+    </section>
+
+    <footer>
+      APGN Champs Tournament — Asia Public • Ranked Gaming Client
+    </footer>
+
+  </main>
+</body>
+</html>
